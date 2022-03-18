@@ -3,12 +3,12 @@ conding = utf-8
 @Author : Wu Wentong
 @Time   : 2022/3/17 上午8:58
 @Site   : 
-@File   : HJ18.py
+@File   : HJ8.py
 @SoftWare: PyCharm
 """
 
 
-def HJ18():
+def hj_8():
     num = int(input())
     store_dict = {}
     for _ in range(num):
@@ -18,12 +18,9 @@ def HJ18():
         else:
             store_dict[int(data[0])] = int(data[1])
 
-    # for k, v in store_dict.items():
-    #     print(k, v)
     for i in sorted(store_dict):
-        # print((int(i), store_dict[i]))
         print(i, store_dict[i])
 
 
 if __name__ == '__main__':
-    HJ18()
+    hj_8()
