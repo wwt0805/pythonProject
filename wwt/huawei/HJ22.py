@@ -1,25 +1,22 @@
-"""
-conding = utf-8
-@Author : Wu Wentong
-@Time   : 2022/3/22 下午5:00
-@Site   : 
-@File   : HJ22.py
-@SoftWare: PyCharm
-"""
-
-
 def hj_22():
-    store_list = []
     while True:
-        data = input()
-        if data == "0":
+        num = int(input())
+        if num == 0:
             break
         else:
-            store_list.append(data)
-
-    for num in store_list:
-        while True:
-            div = num // 3
+            count = 0
+            while True:
+                coke_num = num // 3
+                empty_num = num % 3
+                num = coke_num + empty_num
+                count += coke_num
+                if num == 2:
+                    count += 1
+                    print(count)
+                    break
+                elif num < 2:
+                    print(count)
+                    break
 
 
 if __name__ == '__main__':
