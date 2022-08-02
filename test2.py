@@ -6,6 +6,8 @@ coding=utf-8
 @File    : test2.py
 @Software: PyCharm
 """
+
+
 def exam2():
     try:
         while True:
@@ -30,6 +32,7 @@ def exam2():
             print(remind)
     except:
         print("error")
+
 
 if __name__ == '__main__':
     print(exam2())
