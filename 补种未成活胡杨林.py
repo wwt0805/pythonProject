@@ -46,7 +46,7 @@ def func():
     res = {}
     for i in range(len(trans)):
         res[i] = len("".join([x for x in trans[i: i + add_num + 1]]))
-    print(max(res.values()) + add_num)
+    print(max(res.values()) + 1)
 
 
 if __name__ == '__main__':
