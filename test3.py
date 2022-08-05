@@ -7,6 +7,7 @@ coding=utf-8
 @Software: PyCharm
 """
 
+
 def exam3():
     content = input()
     sign_list = []
@@ -34,7 +35,6 @@ def exam3():
             break
             # if left_list[left_start].isdigt():
             #     break
-
 
 
 if __name__ == '__main__':
