@@ -43,3 +43,5 @@ def rotation(num: int):
 
 if __name__ == '__main__':
     rotation(4)
+    rotation(5)
+    rotation(6)
